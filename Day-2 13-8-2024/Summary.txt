@@ -1,0 +1,52 @@
+Day-2
+13/08/2024
+
+Part-I XLOOKUP in Excel
+1. XLOOKUP
+	=XLOOKUP(lookup_value, array, return, [if not found], [match mode], 	[search mode])
+2. XLOOKUP Multiple Rows
+	
+3. XLOOKUP Exact Match
+	(...)0- Exact Match
+	()-1- Exact Match or Next smaller match
+	()1- Exact Match or Next larger match
+	()2- Wildcard character match
+
+Note: "*"&A2 Anything that comes before A2 match
+	A2&"*" After
+	eg: XLOOKUP(A2&"*", array, return, "Not Found", 2) => wildcard match
+
+	eg: XLOOKUP(A2, array, return,, 1)=>  exact match or next larger
+
+4. XLOOKUP Search Order
+	3 comma ,,, - search mode
+	1- search first-to-last
+	-1- search last-to-first
+	2- binary search (sorted ascending order)
+	-2- binary search(sorted descending order)
+	
+5. HLOOKUP Horizontal Search
+6. XLOOKUP with SUM
+	SUM(XLOOKUP(values,...):XLOOKUP(values,...))
+
+7. VLOOKUP
+	=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])
+	eg: =VLOOKUP(lookup_value, Table Range, 4, False)
+	True- Approximate Match
+	False- Exact Match
+
+Part -II Conditional Formatting in Excel
+1.Home > Conditional Formatting > Icon Sets, Color Scales, Data Bars, Top/Bottom rules
+
+Highlighting and representing data in bars are average, high and low.
+
+2. Highlight Cells Rules > Duplicate Value, Text That Contains
+3. Data > Filter > Sort by Color
+4. Set Custom Rules
+
+Part- III Charts in Excel
+Column, Line, Bar Charts
+	
+	
+
+	

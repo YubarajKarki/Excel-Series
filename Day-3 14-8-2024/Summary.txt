@@ -1,0 +1,14 @@
+14/08/2024
+
+Part-I Data Cleaning in Excel
+1. Remove Duplicate 
+	data > data tools > remove duplicate 
+	
+2. Double click in bottom right to apply for all
+	=UPPER()
+	=Proper()
+
+Convert to Short Date
+Paste as Value
+
+

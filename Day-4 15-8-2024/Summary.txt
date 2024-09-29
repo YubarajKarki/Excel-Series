@@ -1,0 +1,6 @@
+15/08/2024
+
+Project in Excel
+Working Sheet, Pivot Table, Dashboard
+First Remove Duplicate Data
+Ctrl + H => find and replace

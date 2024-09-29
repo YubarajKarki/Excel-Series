@@ -1,0 +1,39 @@
+Day-1 12/08/2024
+
+1. Pivot Table
+insert => pivot table
+ctrl + shift + right + down arrow => to select all data
+pivot table analyze => fields, items and sets(to add calculated field or column)
+
+2. Formulas in Excel
+i. =MAX(TAB Range)
+ii. =MIN()
+iii. IF(Condition/logical test, true_value,false_value)
+iv. IFS(test1, value_if_true1, test2, value_if_true2, test3, 	value_if_true3,...)
+v. LEN() returns a no. of character in text string
+vi. LEFT(text, no_of_character) Kind of sub-string
+vii. RIGHT
+viii. TEXT(Range, "dd/mm/yyyy") => DateToText
+	We cannot perform LEFT , RIGHT operation on Date format data.
+	Date is formatted in Right whereas Text is Left Formatted.
+ix. TRIM(RANGE) used to remove spaces(single space only not the spaces 	between words)
+x. CONCATENATE(B2, " ", C2) joins two or more text strings into one string.
+	can be used to create email. eg CONCATENATE(B2, ".", C2, 	"@gmail.com")
+xi. SUBSTITUTE(text, old_text, new_text,, [instance_num]) replaces existing 	text with the new text in the string.
+	No Instance eg: SUBSTITUTE(Range, "-", "/") Default-chooses all
+	1 Instance eg: SUBSTITUTE(Range, "-", "/", 1) => only substitute in 	first appearance 
+	2 Instance  only substitute in first appearance (Note: 1st instance 	won't be substituted only second appearanceof text string is).
+xii. SUM(Range) adds all the numbers in the range of cells
+xiii. SUMIF(range, criteria, [sum_range])
+	eg: =SUMIF(Range, ">5000")
+xiv. SUMIFS(sum_range, criteria_range1, criteria1, [criteria_range2, 	criteria2....])
+	eg: SUMIFS(Range1, Range2, "Female", Range3, ">30000")
+xv. COUNT(Range) gives number of cells in the given range
+
+	COUNTIF(range, criteria) eg:=COUNTIF(range, ">50000") i.e it gives 	number of person with salary greater than 50000
+
+	COUNTIFS(Range1, criteria1, Range2, Criteria2,.....)
+xvi. DAYS(end_date, start_date) gives number of days in between the given 	date.
+
+	NETWORKDAYS(start_date, end_date, [holidays]) gives number of 	working days exclude holidays.
+	(Note: These two formula works only in text format date.)

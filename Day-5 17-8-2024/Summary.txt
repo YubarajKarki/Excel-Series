@@ -1,0 +1,58 @@
+Day-5 17/08/2024
+
+1. Alex- The Data Analyst
+2. Excel Campus - Jon
+3. Kevin Stratvert
+4. Chandoo
+5. Leila Gharani
+6. Kenji Explains
+
+I. Pivot Table 
+II. Formulas
+III. XLOOKUP, VLOOKUP, HLOOKUP
+IV. Conditional Formatting
+V. Charts
+VI. Data Cleaning
+VII. Project(Data Cleaning, Dashboard, Create Slicer)
+
+1. Basic Functions: SUM, AVERAGE, COUNT, MIN, MAX
+2. Data Cleaning: TRIM, CLEAN, TEXT functions (LEFT, RIGHT, MID)
+3. Conditional Formatting
+4. Data Validation
+5. Pivot Tables & Pivot Charts
+6. Lookup Functions: VLOOKUP, HLOOKUP, XLOOKUP
+7. Data Analysis Toolpak: Regression, Descriptive Statistics
+8. What-If Analysis: Scenario Manager, Goal Seek, Data Tables
+9. Advanced Functions: INDEX, MATCH, IF, IFERROR, CONCATENATE
+10. Dashboard Creation
+11. Macros & Automation: Recording Macros, VBA Basics
+
+
+
+Part-I Data Validation
+Home >  Data > Data Validation
+List, Date, Input Message,Input Text length(min and max).....
+
+Input Form Data
+Quick Acces Tool Bar > More Commands > Switch to All Commands > Find form and press Add > Click the form button > Tap new and start entering data
+
+CLEAN Function: Removes non-printable characters from text.
+If a cell contains unwanted line breaks or symbols, =CLEAN(A1) will remove them.
+
+INDEX + MATCH(Returns value from the calculated positions)
+=INDEX(Range, Position)
+=INDEX(A1:C3, 2nd row, 3rd column) Value
+=MATCH("Apple", A1:A10, 0) Position
+	0-exact match
+=IFERROR(A1/B1, "Error") 
+	 returns "Error" if the division causes an 	 error (like division by zero)
+
+Calculate the difference in years: =DATEDIF(start_date, end_date, "y/m/d")
+
+Days ignoring months and years: =DATEDIF(start_date, end_date, "md")
+Days ignoring years: =DATEDIF(start_date, end_date, "yd")
+
+what-if analysis(scenario manager, goal seek, data table)
+data > what-if analysis 
+Scenario Manager >  Add, Show, Summary
+
